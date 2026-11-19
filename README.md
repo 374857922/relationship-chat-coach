@@ -22,15 +22,14 @@ Skill 本身没有运行时依赖，不调用外部服务，也不保存聊天�
 
 | 项目 | 许可 | 调研结果与本项目用法 |
 | --- | --- | --- |
-| [openclaw-relationship-coach](https://github.com/cozer-1024/openclaw-relationship-coach) | MIT | 参考了主入口按场景指向不同参考文档的结构。 |
-| [dsh-relationship-coach](https://github.com/Satesera/dsh-relationship-coach) | MIT | 把可观察行为、可能解释和未知拆开，再给可执行回复。这里复用这个分析思路。 |
-| [relationship-coach-skill](https://github.com/replyher/relationship-coach-skill) | MIT | 参考沟通、冲突和边界的覆盖范围，补齐关系升温之外的场景。 |
-| [HeDao-Coach](https://github.com/sanguo-jiang/HeDao-Coach) | GitHub 元数据未列明 | 调研了普通用户贴消息、拿回复和接续话题的流程。 |
+| [童锦程视角 Skill](https://github.com/hotcoffeeshake/tong-jincheng-skill) | MIT | 社区根据直播、约会视频等资料整理。参考它直给的分析方式，以及留意对方是否有实际行动的思路。 |
+| [LoveHelper.skill](https://github.com/Mowon0303/LoveHelper.skill) | MIT | 结合具体聊天片段给一句可发消息，再定下一步。重点参考接梗、降压和把线上互动落到见面的处理方式。 |
+| [约会特工](https://github.com/mountainwaterr/yuehui-tegong) | GitHub 元数据未列明 | 对照了暧昧、僵持和确认关系的场景分法，用于检查场景覆盖。 |
 
-本仓库的提示词、中文示例和验收场景为原创，复用范围是上述组织方式和交互思路。格式遵循 [Agent Skills 规范](https://agentskills.io/specification)。
+本项目根据上述社区作品整理分析思路，提示词与案例为原创。童锦程相关内容来自社区整理，未逐段核对原视频。格式遵循 [Agent Skills 规范](https://agentskills.io/specification)。
 
 ## 开发
 
 - [SKILL.md](SKILL.md) 定义触发条件、回复流程和边界。
-- [references/](references/) 包含按需加载的场景示例。
+- [references/](references/) 包含按需加载的场景示例和[实战拆聊与升温](references/progression.md)。
 - [evals/scenarios.md](evals/scenarios.md) 提供人工验收输入和检查点。
