@@ -18,6 +18,8 @@ cp -R SKILL.md references "$skill_dir/"
 
 Skill 本身没有运行时依赖，不调用外部服务，也不保存聊天档案。聊天内容按所用客户端的设置处理。
 
+想听更直白、有点哲理的复盘，可以说「用峰哥视角看看，我其实在纠结什么，接下来怎么做？」[查看示例](references/fengge-perspective.md)
+
 ## 开源项目参考
 
 | 项目 | 许可 | 调研结果与本项目用法 |
@@ -28,8 +30,10 @@ Skill 本身没有运行时依赖，不调用外部服务，也不保存聊天�
 | [情圣.skill](https://github.com/tomwong001/qingsheng-skill) | MIT | 参考匹配平台与微信的语境差异，以及邀约成功后确认安排的做法。 |
 | [她不一样](https://github.com/863401402/she-love-me) | MIT | 参考结论能回到原对话核查的做法，在用户提供的片段内逐条对照。 |
 | [恋爱训练营.skill](https://github.com/TammyTan516/relationship-training-skill) | GitHub 元数据未列明 | 借鉴多轮模拟和复盘，加入可随时结束的邀约练习。 |
+| [YixiaJack 的峰哥.skill](https://github.com/YixiaJack/feng-ge-skill) | MIT | 参考用大白话和换角度的方式讲清现实处境。 |
+| [rottenpen 的峰哥亡命天涯 Skill](https://github.com/rottenpen/fengge-wangmingtianya-perspective) | MIT | 参考先给判断，再把纠结落到一个能做的小动作。 |
 
-本项目根据上述社区作品整理分析思路，提示词与案例为原创。童锦程相关内容来自社区整理，未逐段核对原视频。格式遵循 [Agent Skills 规范](https://agentskills.io/specification)。
+本项目根据上述社区作品整理分析思路，提示词与案例为原创。童锦程相关内容来自社区整理，未逐段核对原视频。峰哥视角也来自社区 Skill，示例是原创点评。格式遵循 [Agent Skills 规范](https://agentskills.io/specification)。
 
 ## 开发
 
