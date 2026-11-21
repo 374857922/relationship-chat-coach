@@ -2,6 +2,10 @@
 
 中文 Agent Skill，用于回消息、延续话题、表达好感、约见面、确认关系，以及在冷淡或冲突时把话说清楚。这个仓库可以直接作为 Skill 目录使用。
 
+## 导入 Codex 插件
+
+下载插件 ZIP 后，在 Codex 的插件导入页面直接上传，无需解压。[下载 v1.0.2 插件 ZIP](dist/relationship-chat-coach-codex-plugin-v1.0.2.zip?raw=true)
+
 ## 在 Codex 项目里使用
 
 在 Codex 中打开这个仓库的检出目录，再开一个会话。支持符号链接的检出会通过 `.agents/skills/relationship-chat-coach` 自动发现仓库里的 Skill。若检出环境把符号链接保存成普通文件，请按下方的个人安装方式复制 Skill。
